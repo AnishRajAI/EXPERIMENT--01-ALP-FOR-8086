@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
 ### Name : ANISH RAJ P
-### Roll no : 212222230010
-### Date of experiment : 
+### Register no : 212222230010
+### Date of experiment : 13.08.2024
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
