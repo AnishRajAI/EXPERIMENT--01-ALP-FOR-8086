@@ -1,11 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
-
+### Name : ANISH RAJ P
+### Roll no : 212222230010
+### Date of experiment : 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -30,7 +26,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 8.	 
 
 
-![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
+<img src='https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png' width=50%>
+
 
 
 
@@ -60,6 +57,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
+
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
 
 
@@ -67,41 +65,89 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
-
-
-
-
-
-
+<img src='https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png' >
 
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+MOV AL,74H
+MOV BL,69H
+ADD AL,BL
+HLT
+```
 ## Output  
- 
+<img src='https://github.com/lisianathiruselvan/EXPERIMENT--01-ALP-FOR-8086/assets/119389971/d10c9662-401a-4f39-a50a-22e730c823d5' width=50%>
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
+```
+MOV AL,84H
+MOV BL,63H
+SUB AL,BL
+HLT
+
+```
+## Output 
+<img src='https://github.com/lisianathiruselvan/EXPERIMENT--01-ALP-FOR-8086/assets/119389971/a13930e9-005d-4312-a867-011ec465b22d' width=50%>
+
 ## Multiplication alp 
+```
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+```
  ## Output  
+<img src='https://github.com/lisianathiruselvan/EXPERIMENT--01-ALP-FOR-8086/assets/119389971/61272bcc-5773-42d6-800c-ba2c15f796b0' width=50%>
 
+## DIVISION of 8 bit ALP
+```
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+```
+## Output 
+<img src='https://github.com/lisianathiruselvan/EXPERIMENT--01-ALP-FOR-8086/assets/119389971/1f20576c-3f1f-4d33-9252-abf5f7acc44f' width=50%>
 
-## Division alp 
+## AND of 8 bit ALP
+```
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## Output
+<img src='https://github.com/lisianathiruselvan/EXPERIMENT--01-ALP-FOR-8086/assets/119389971/da0ec872-95ff-4d75-8923-6c8d2f002739' width=50%>
 
-## Output  
+## OR of 8 bit ALP
+```
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## Output
+<img src='https://github.com/lisianathiruselvan/EXPERIMENT--01-ALP-FOR-8086/assets/119389971/fa599619-17bc-416a-b662-94c2197c0c42' width=50%>
 
+## NOT of 8 bit ALP
+```
+MOV AL,65H
+NOT AL
+HLT
+```
+## Output
+<img src='https://github.com/lisianathiruselvan/EXPERIMENT--01-ALP-FOR-8086/assets/119389971/7ca3fde6-6b68-44c7-a4e6-3fb8e2ec15e9' width=50%>
+
+## XOR of 8 bit ALP
+```
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+## Output
+<img src='https://github.com/lisianathiruselvan/EXPERIMENT--01-ALP-FOR-8086/assets/119389971/3c2e879d-70a2-4bbb-bc5f-ce2e1a5d83c4' width=50%>
 
 ## Result :
- 
-
-
-
-
-
-
-
-
+Thus, A Program Is Develope To Write And Execute ALP On Fundamental Arithmetic And Logical Operations.
